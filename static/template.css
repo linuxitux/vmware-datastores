@@ -1,0 +1,220 @@
+/*
+TODO: mejorar printing
+*/
+
+body {
+font-family: Verdana;
+margin: 0;
+font-size: 100%;
+color: #222;
+}
+
+h4 {
+font-size: 1.2em;
+margin-top: .7em;
+margin-bottom: .5em;
+}
+
+h5 {
+font-size: .9em;
+font-weight: normal;
+margin-top: .2em;
+margin-bottom: .2em;
+}
+
+.main-container {
+display: inline-block;
+}
+
+.metrics, .small-metrics, .metrics-container {
+margin: 5px;
+padding: 10px;
+display: inline-block;
+vertical-align: top;
+background-color: #F2F1EF;
+}
+
+.metrics-table {
+margin-top: 10px;
+}
+
+.metrics-menu {
+width: 100%;
+font-size: .8em;
+}
+
+.left {
+text-align: left;
+}
+
+.right {
+text-align: right;
+}
+
+table {
+border-collapse: collapse;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+td {
+font-size: 90%;
+}
+
+tr.beforeseparator>td {
+padding-bottom: 10px;
+border-bottom: 1px solid #DDD;
+}
+
+tr.afterseparator>td {
+padding-top: 10px;
+}
+
+li {
+color: #222;
+list-style: none;
+}
+
+li.utilizado::before, li.disponible::before {
+content: "\25A0";
+font-size: 85%;
+vertical-align: top;
+padding-right: 5px;
+}
+
+li.utilizado::before {
+color: #F2784B;
+}
+
+li.disponible::before {
+color: #66CC99;
+}
+
+.metric-value {
+text-align: right;
+font-family: monospace;
+font-size: 110%;
+padding-left: 10px;
+}
+
+.dateinfodiv {
+width: 100%;
+}
+
+.dateinfo {
+color: #333;
+font-size: 85%;
+text-align: right;
+margin-right: 5px;
+}
+
+a:link, a:visited, a:hover {
+font-size: 90%;
+text-decoration: none;
+}
+
+a.button:hover, a.logout:hover {
+text-decoration: underline;
+}
+
+a:active {
+color: #000;
+}
+
+.logout {
+color: #fff;
+font-weight: bold;
+}
+
+.button, .legend {
+color: #FF8558;
+}
+
+.separator {
+color: #5C5B5A;
+}
+
+.legend {
+font-weight: bold;
+}
+
+a.button {
+padding: 3px;
+}
+
+h1 {
+margin-top: 10px;
+margin-left: 10px;
+}
+
+a.logo {
+color: inherit;
+}
+
+.header {
+background-color: #5C5B5A;
+/*border-bottom: 2px solid #EEE;*/
+color: #F2F1EF;
+overflow: auto;
+}
+
+.title {
+float: left;
+font-size: 75%;
+}
+
+.profile {
+float: right;
+text-align: right;
+margin-right: 10px;
+}
+
+.profile p {
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 90%;
+}
+
+.smallcaps {
+font-variant: small-caps;
+}
+
+table.login td {
+padding-right: 10px;
+color: #5C5B5A;
+}
+
+input[type=button] {
+background-color: #5C5B5A;
+border: none;
+color: #fff;
+padding: 5px 30px 5px 30px;
+}
+
+input[type=button]:active {
+background-color: #ACABAA;
+border: none;
+color: #fff;
+padding: 5px 30px 5px 30px;
+}
+
+input[type=text], input[type=password] {
+color: #000;
+border: 1px solid #aCaBaA;
+padding: 5px 30px 5px 30px;
+}
+
+.detail-table {
+color: #333;
+}
+
+table.detail-table td {
+padding-right: 10px;
+}
+
+table.detail-table th {
+padding-right: 10px;
+font-variant: small-caps;
+font-size: .85em;
+font-weight: bold;
+}

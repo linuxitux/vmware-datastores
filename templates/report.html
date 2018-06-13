@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+<script type="text/javascript" src="{{ url_for('static', filename='vmware.js') }}" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='template.css') }}">
+
+<meta charset="utf-8" />
+<title>Datastores {{ site }} - Reporte - {{ ds }}</title>
+
+<script>
+
+</script>
+
+</head>
+
+<body>
+
+{% include 'header.html' %}
+
+<center>
+<div class="main-container">
+
+  <div class="dateinfodiv"><p style="display: none;" class="dateinfo" id="fecha"></p></div>
+
+  <div class="container" id="container">
+
+  </div>
+
+</div>
+</center>
+
+<script>
+createReport('{{ ds }}');
+</script>
+
+</body>
